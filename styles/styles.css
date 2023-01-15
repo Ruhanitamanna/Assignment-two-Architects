@@ -26,7 +26,7 @@ header{
 .nav-list{
     display: flex;
     list-style: none;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     margin: 2px;
    
@@ -242,3 +242,40 @@ footer{
     margin-left: 250px;
     margin-top: 130px;
 }
+/* footer styling ends  */
+/* time to make website responsive */
+
+@media only screen and (max-width: 600px){
+    header{
+        width: 100%;
+        position: relative;
+
+    }
+    .nav-bar, .nav-list, .second-part, .third-part{
+        flex-direction: column;
+    }
+    .banner-image{
+        text-align: center;
+        width: 100%;
+        height: 100%;
+        margin: 15px;
+    }
+    button{
+        margin-top: 20px;
+    }
+    }
+    .banner-description{
+        margin-left: 30px;
+        width: 200px;
+    }
+    .second-part-images{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .second-part-container{
+        height: 100%;
+        width: 100%;
+        margin: 0%;
+    }
+
+
+    
