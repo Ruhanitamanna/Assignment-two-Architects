@@ -46,9 +46,9 @@ header{
 .banner-description{
     font-weight: 400;
     font-size: 16px;
-    width: 200px;
+    width: 700px;
     height:  100px;
-    margin-left: 850px; 
+    margin-left: 650px; 
 } 
 button{
     background-color: orange;
@@ -226,10 +226,17 @@ button{
 }
 /* 5th part ends */
 /* bonus part  */
+.bonus{
+    width: 700px;
+    text-align: center;
+    background-color: rgb(183, 239, 241);
+    margin-left: 700px;
+    margin-top: 130px;
+}
 /* footer styling */
 footer{
     width: 1400px;
-    height: 100px;background-color:  rgba(255, 144, 14, 0.1);
+    height: 60px;background-color:  rgba(255, 144, 14, 0.1);
     padding: 20px;
     text-align: center;
     margin-left: 250px;
