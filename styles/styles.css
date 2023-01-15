@@ -298,6 +298,16 @@ footer{
     .fourth-part-images{
         flex-direction: column;
     }
+    .bonus{
+        width: auto;
+        margin: 0px;
+    }
+    footer{
+        width: auto;
+        height: auto;
+        margin: 0px;
+
+    }
 
 
     
